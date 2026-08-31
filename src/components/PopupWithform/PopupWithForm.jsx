@@ -18,7 +18,7 @@ function PopupWithForm({ isOpen, onClose }) {
 
     return () => document.removeEventListener('keydown', handleEscClose)
 
-  }, [isOpen]);
+  }, [isOpen, onClose]);
   
   return (
     <div className={`popup ${isOpen ? 'popup_opened' : ''}`}>

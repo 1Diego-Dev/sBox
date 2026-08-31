@@ -1,3 +1,4 @@
+import { BASE_URL_API } from "./constants";
 class ThirdPartyApi {
   constructor({baseUrl}){
     this.baseUrl = baseUrl;
@@ -18,4 +19,4 @@ class ThirdPartyApi {
   }
 }
 
-export const api = new ThirdPartyApi({ baseUrl: "https://api.tvmaze.com"})
+export const api = new ThirdPartyApi({ baseUrl: BASE_URL_API});

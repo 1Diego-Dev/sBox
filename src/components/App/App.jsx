@@ -31,15 +31,11 @@ function App() {
   const [ isPopupOpen, setIsPopupOpen ] = useState(false);
 
   // Estado para el guardado de series
-  const [ savedSeries, setSavedSeries ] = useState([]);
-
-  /* Hooks de efecto */
-  useEffect(() => {
+  const [ savedSeries, setSavedSeries ] = useState(() => {
     const series = localStorage.getItem('misSeries');
-    if (series){
-      setSavedSeries(JSON.parse(series));
-    }
-  },[]);
+    return series ? JSON.parse(series) : [];
+  });
+
 
   /*------ Handlers ------ */ 
   // Controlador de busqueda

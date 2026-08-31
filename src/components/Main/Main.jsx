@@ -20,7 +20,7 @@ function Main({
       { preloader === true ? <Preloader/> : ''}
       { preloader === false && ((isSavedRoute === false && isSearchFail === true) || (isSavedRoute === true && search.length === 0)) && (
         <NotFound 
-          title={ isSavedRoute ? "¡Aún no hay nada aquí!" : "No se encontraron resultados" }
+          title={ isSavedRoute ? "¡Aún no hay nada aquí!" : "No se encontrado nada" }
           text={ isSavedRoute ? (
             <>
             Aún no has guardado ninguna serie. Usa el corazón {<IconHeartForText/>} para añadir tus favoritas.

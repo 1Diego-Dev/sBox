@@ -22,7 +22,7 @@ function Card({
       <div className="card__image-container">
         <img 
           src={ image || 'https://placehold.co/500x500?text=Not+Found+Image'} 
-          alt="Placeholder" 
+          alt={ title } 
           className="card__image" 
         />
         <span className="card__image-fallback">Rating: { calculateScore > 10 ? 10 : calculateScore}</span>
