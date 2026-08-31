@@ -7,7 +7,7 @@
 
 ## Enlace al Proyecto en Vivo
 Puedes probar la aplicación funcionando en el siguiente enlace: 
-**[🔗 Visitar sBox en vivo]([])**
+**[🔗 Visitar sBox en vivo]([https://1diego-dev.github.io/sBox/])**
 ___
 ## 📝 Sobre el Proyecto
 **sBox** es una *Single Page Application* (SPA) diseñada para los amantes de la televisión. Funciona como un motor de búsqueda rápido y minimalista que permite a los usuarios introducir palabras clave para consultar una base de datos global. Los usuarios pueden ver coincidencias instantáneas de series, incluyendo portadas, resúmenes sin spoilers y valoraciones, además de poder guardar sus hallazgos en una colección personal.
