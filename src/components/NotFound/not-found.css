@@ -1,0 +1,44 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+  width: 100%;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.not-found__icon-container {
+  margin-bottom: 24px;
+  color: #403e3d; 
+}
+
+.not-found__icon {
+  width: 86px;
+  height: 86px;
+}
+
+.not-found__title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff; 
+  margin: 0 0 16px 0;
+}
+
+.not-found__text {
+  font-size: 16px;
+  color: #a3a3a3; 
+  max-width: 420px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
