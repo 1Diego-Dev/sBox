@@ -10,7 +10,7 @@ import About from '../About/About';
 import PageNotFound from '../PageNotFound/PageNotFound';
 
 // Componentes lógicos
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { api } from '../../utils/ThirdPartyApi';
 import { Routes, Route } from 'react-router-dom';
 

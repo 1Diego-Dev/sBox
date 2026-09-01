@@ -25,18 +25,6 @@
   object-fit: cover;
 }
 
-.card__image-placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--color-text-muted);
-  font-size: 14px;
-}
 .card__image-fallback{
   z-index: 2;
   position: absolute;

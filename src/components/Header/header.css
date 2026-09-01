@@ -13,10 +13,6 @@
   z-index: 100;
 }
 
-.header__logo-container {
-  display: flex;
-  align-items: center;
-}
 
 .header__logo-img {
   height: 48px; 
@@ -36,7 +32,6 @@
   align-items: center;
 }
 
-.header__nav-item,
 .header__link {
   background: transparent;
   border: none;
@@ -48,7 +43,6 @@
   text-decoration: none;
 }
 
-.header__nav-item:hover,
 .header__link:hover {
   color: var(--color-primary);
 }

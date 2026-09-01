@@ -86,9 +86,6 @@
   background-color: #e5e5e5;
   transform: scale(1.05);
 }
-.about__list-item_heart-size{
-  font-size: 16px;
-}
 
 @keyframes fadeIn {
   from {
